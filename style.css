@@ -3,6 +3,7 @@ body {
     display: flex;
     padding: 1em;
     flex-direction: column;
+    background-color: #f3a7a8;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
 }
@@ -32,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D9D9D9;
+    background-color: #FF9999;
     padding: 5em 1.5em 1.5em;
 }
 .icon {
@@ -51,6 +52,10 @@ button {
 }
 
 button:hover {
-    background-color: #C8C6C6;
+    background-color: #FF9999;
     cursor: pointer;
+}
+p {
+    font-size: 24px;
+    color: aliceblue;
 }
